@@ -2,24 +2,24 @@
 
 ## Project Overview
 
-This project presents a full valuation comparison between **Apple Inc.** and **Microsoft Corporation** using multiple valuation methods, including comparable company analysis, DCF valuation, 3-statement modeling, sensitivity analysis, and valuation range analysis.
+This project presents a full valuation comparison between **Apple Inc.** and **Microsoft Corporation** using multiple valuation methods, including comparable company analysis, discounted cash flow analysis, 3-statement financial modeling, sensitivity analysis, and valuation range analysis.
 
-The workbook combines previously built Apple and Microsoft DCF models and 3-statement models with additional market data, valuation multiples, charts, and written summaries. The goal of the project is to compare both companies from an operating, profitability, and valuation perspective.
+The workbook combines previously built Apple and Microsoft 3-statement models and DCF models with additional market data, valuation multiples, charts, written summaries, and valuation range outputs. The purpose of the project is to compare Apple and Microsoft from an operating, profitability, and valuation perspective.
 
-This project was created as part of a financial modeling portfolio to demonstrate Excel-based valuation, financial statement modeling, DCF analysis, sensitivity analysis, chart creation, and investment-style summary writing.
+This project was created as part of a financial modeling portfolio to demonstrate Excel-based valuation, financial statement modeling, DCF analysis, sensitivity analysis, chart creation, and investment-style summary presentation.
 
 ---
 
-## Workbook Included
+## Main Workbook
 
-* `Apple vs. Microsoft valuation comparison.xlsx`
+[Download the Excel Workbook](./Apple%20vs.%20Microsoft%20valuation%20comparison.xlsx)
 
 The workbook includes:
 
 * Cover page
-* Apple vs. Microsoft comps table
+* Apple vs. Microsoft valuation comparison
+* Comparable company analysis
 * Valuation and profitability summary
-* DCF comparison
 * Apple DCF model
 * Microsoft DCF model
 * Apple 3-statement model
@@ -52,13 +52,13 @@ This section shows that Microsoft trades at a higher EV/Sales multiple, while Ap
 
 Microsoft also shows stronger profitability, with better EBITDA and net margins, suggesting it converts revenue into profit more efficiently than Apple.
 
-![Comparable Company Analysis Part 1](screenshots/comps-table-part-1.png)
+![Comparable Company Analysis and Valuation Summary](./Comps%20Table%20Part%201.png)
 
 ---
 
 ## DCF Comparison and Charts
 
-The DCF comparison summarizes the implied share price, current share price, upside/downside, terminal growth rate, discount rate, terminal value, implied equity value, and implied enterprise value for both companies.
+The DCF comparison summarizes each company’s current share price, DCF implied share price, upside/downside, terminal growth rate, discount rate, selected terminal value, implied equity value, and implied enterprise value.
 
 ### Apple DCF Output
 
@@ -86,13 +86,37 @@ Apple appears slightly undervalued under the selected base-case assumptions. How
 
 Microsoft appears modestly undervalued under the selected base-case assumptions and shows stronger relative upside compared to Apple.
 
-![DCF Comparison Charts and Summary](screenshots/comps-table-part-2.png)
+![DCF Comparison Charts and Summary](./Comps%20Table%20part%202.png)
+
+---
+
+## Microsoft DCF Model
+
+The Microsoft DCF model estimates Microsoft’s implied enterprise value, implied equity value, and implied share price using forecasted free cash flow, terminal value analysis, discount rate assumptions, and equity value adjustments.
+
+The model uses projected unlevered free cash flow and terminal value assumptions to estimate Microsoft’s intrinsic value per share. The DCF output is then compared to the current market share price to estimate upside or downside.
+
+![Microsoft DCF Model Part 1](./DCF%20Model%20Part%201.png)
+
+![Microsoft DCF Model Part 2](./DCF%20Model%20Part%202.png)
+
+---
+
+## Apple DCF Model
+
+The Apple DCF model estimates Apple’s implied enterprise value, implied equity value, and implied share price using forecasted free cash flow, terminal value assumptions, discount rate assumptions, and equity value adjustments.
+
+The model uses projected unlevered free cash flow and terminal value analysis to estimate Apple’s intrinsic value per share. The DCF output is then compared to the current market share price to estimate upside or downside.
+
+![Apple DCF Model Part 1](./Apple%20DCF%20Part%201.png)
+
+![Apple DCF Model Part 2](./Apple%20DCF%20Part%202.png)
 
 ---
 
 ## Apple and Microsoft 3-Statement Models
 
-The workbook includes previously built 3-statement models for both Apple and Microsoft. These models provide the financial statement foundation for the DCF valuations.
+The workbook also includes previously built 3-statement models for both Apple and Microsoft. These models provide the financial statement foundation for the DCF valuations.
 
 Each 3-statement model includes:
 
@@ -102,7 +126,7 @@ Each 3-statement model includes:
 * Supporting assumptions
 * Forecasted financial line items
 
-The 3-statement models support the DCF valuation process by helping estimate future free cash flow, profitability, capital expenditures, working capital needs, and valuation outputs.
+The 3-statement models support the DCF valuation process by helping estimate future revenue, profitability, working capital needs, capital expenditures, free cash flow, and valuation outputs.
 
 ---
 
@@ -116,13 +140,13 @@ The columns represent the **perpetual growth rate**. Higher perpetual growth ass
 
 The top-left value in each sensitivity table represents the linked base-case DCF implied share price from the model.
 
-For Apple, the sensitivity table shows that valuation is highly dependent on discount rate and terminal growth assumptions. At a `9.0%` discount rate and `3.0%` perpetual growth rate, Apple’s implied value is `$182.04` per share, which is below its current share price of `$231.27`. This suggests Apple appears overvalued under more conservative assumptions. However, Apple’s linked base-case DCF implied value is `$236.73`, reflecting a lower discount rate and higher terminal growth rate.
+For Apple, the sensitivity table shows that valuation is highly dependent on the discount rate and terminal growth assumptions. At a `9.0%` discount rate and `3.0%` perpetual growth rate, Apple’s implied value is `$182.04` per share, which is below its current share price of `$231.27`. This suggests Apple appears overvalued under more conservative assumptions. However, Apple’s linked base-case DCF implied value is `$236.73`, reflecting a lower discount rate and higher terminal growth rate.
 
 For Microsoft, the sensitivity table shows stronger support for the current market price. At a `9.0%` discount rate and `2.5%` perpetual growth rate, Microsoft’s implied value is `$414.03` per share, compared to its current share price of `$384.41`. This suggests Microsoft appears modestly undervalued under the base-case assumptions.
 
 Overall, the sensitivity tables show that valuation conclusions depend heavily on assumptions. Lower discount rates and higher perpetual growth rates increase implied share prices, while higher discount rates and lower perpetual growth rates reduce implied share prices.
 
-![DCF Sensitivity Analysis](screenshots/sensitivity-analysis-table.png)
+![DCF Sensitivity Analysis](./Sensitivity%20Analysis%20Table.png)
 
 ---
 
@@ -140,7 +164,7 @@ Valuation methods included:
 
 This section helps show where each company’s valuation falls across different valuation approaches. Microsoft shows stronger upside across most valuation methods, especially comparable company valuation, DCF sensitivity, and analyst target ranges. Apple still shows potential upside in some cases, but its valuation appears more dependent on favorable assumptions.
 
-![Valuation Range Chart](screenshots/valuation-range-chart.png)
+![Valuation Range Chart](./Valuation%20Range%20Chart.png)
 
 ---
 
@@ -210,12 +234,13 @@ The valuation outputs depend heavily on the assumptions used in the model. Chang
 
 1. Open the Excel workbook.
 2. Start with the cover page for a high-level overview.
-3. Review the comps table to compare valuation multiples.
-4. Review the Apple and Microsoft 3-statement models.
-5. Review the Apple and Microsoft DCF models.
-6. Review the sensitivity analysis to understand how assumptions impact valuation.
-7. Review the valuation range chart to compare outputs across different valuation methods.
-8. Read the written summaries to understand the key conclusions.
+3. Review the comparable company analysis to compare valuation multiples.
+4. Review the valuation and profitability summary.
+5. Review the Apple and Microsoft 3-statement models.
+6. Review the Apple and Microsoft DCF models.
+7. Review the sensitivity analysis to understand how assumptions impact valuation.
+8. Review the valuation range chart to compare outputs across different valuation methods.
+9. Read the written summaries to understand the key conclusions.
 
 ---
 
